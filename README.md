@@ -1,5 +1,7 @@
 # AQL PropertyCheck: Gold Coast property data for AI agents
 
+[![AQL PropertyCheck - Gold Coast property data MCP connector – tool definition quality and endpoint health on Glama](https://glama.ai/mcp/connectors/ai.alphaquantlabs/propertycheck/badges/score.svg)](https://glama.ai/mcp/connectors/ai.alphaquantlabs/propertycheck)
+
 Official open-government data for **one point in the City of Gold Coast, Queensland, Australia**, served to AI agents over **MCP**, **A2A** and **REST**. Agents can pay per lookup in USDC over **x402** without an account, or use prepaid credits.
 
 **What one lookup returns**
