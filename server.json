@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.alphaquantlabs/propertycheck",
+  "title": "AQL PropertyCheck - Gold Coast property data",
+  "description": "Official open data for one Gold Coast address point: planning, flood, bushfire, schools, transport.",
+  "version": "1.3.0",
+  "websiteUrl": "https://agents.alphaquantlabs.ai/",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agents.alphaquantlabs.ai/v1/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer <api_key>. Free key: POST https://agents.alphaquantlabs.ai/v1/accounts; credits from A$29 (card or USDC).",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
