@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "ai.alphaquantlabs/propertycheck",
-  "title": "AQL PropertyCheck - Gold Coast property data",
-  "description": "Official open data for one Gold Coast address point: planning, flood, bushfire, schools, transport.",
-  "version": "1.3.0",
+  "title": "AQL PropertyCheck — Physical check of one exact address",
+  "description": "Gold Coast & Brisbane: the building, the street at its door and the everyday context around it.",
+  "version": "1.15.0",
   "websiteUrl": "https://agents.alphaquantlabs.ai/",
   "remotes": [
     {
@@ -12,8 +12,8 @@
       "headers": [
         {
           "name": "Authorization",
-          "description": "Bearer <api_key>. Free key: POST https://agents.alphaquantlabs.ai/v1/accounts; credits from A$29 (card or USDC).",
-          "isRequired": true,
+          "description": "Optional. check_address is free without a key. get_full_report: A$1.39 incl. GST via x402, or A$4.95 incl. GST by card after the human agrees.",
+          "isRequired": false,
           "isSecret": true
         }
       ]
