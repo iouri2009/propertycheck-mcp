@@ -1,29 +1,21 @@
-# AQL PropertyCheck — Physical check of one exact address
+# AQL PropertyCheck — Property Intelligence & Due Diligence Report API, Gold Coast & Brisbane City
 
 [![AQL PropertyCheck MCP connector – tool definition quality and endpoint health on Glama](https://glama.ai/mcp/connectors/ai.alphaquantlabs/propertycheck/badges/score.svg)](https://glama.ai/mcp/connectors/ai.alphaquantlabs/propertycheck)
 
-**Gold Coast & Brisbane — the building, the street at its door and the everyday context around one exact address.**
+**Queensland, Australia. Check before buying or renting: flood risk, planning, schools, the street**
 
-One street address in. Get the building, the street and frontage context and the everyday context around it — from source-backed data, with source, status, date and limitations where available.
+Property intelligence and due-diligence property reports for AI agents. Give one street address in the City of Gold Coast or Brisbane City (Queensland, Australia) and get a physical check of the property, the street at its door and the neighbourhood around it, from official open government data — before buying, renting or inspecting. For home buyers, renters, buyer's agents and real estate agents.
 
-PropertyCheck is the last-mile check for a shortlisted property: search / listing / AVM → shortlist → PropertyCheck → decide.
+Where available, for both cities: flood, bushfire and other mapped hazards; planning; state school catchments; traffic counts on nearby roads; police-division crime context; infrastructure; nearest public transport stops.
+Brisbane City adds: the frontage street and road reserve width; kerb parking signs, permit areas and clearways; parent-building height and high-rise status; scheduled (timetabled) journeys to the CBD and four universities; free-flow driving time and toll roads on the route.
+Gold Coast adds: carriageway width; council parking signs and the nearest registered parking area; building footprint, site coverage and open-lot area; the gap to the nearest separate building.
 
-Give one Gold Coast or Brisbane street address and get physical and daily-life evidence that listings and generic risk APIs often leave out:
+Free: check_address confirms the exact address and its coverage and returns a short summary with sources. Paid: get_full_report returns the full structured JSON report — A$1.39 incl. GST via x402 (pay-per-call over HTTP), or A$4.95 incl. GST by card after the person agrees.
+Example questions: "Is 9 Hamilton Avenue, Surfers Paradise in a flood overlay?" · "What are the flood overlays and the state school catchment for 26 Lomandra Place, Chapel Hill (Brisbane)?" · "How wide is the street at 58 Lancewood Circuit, Robina and where is the nearest parking?"
 
-• The street and frontage context — which street serves the property and how the road edge relates to it. Brisbane, where verified: the frontage street(s) and dual frontage, with nearby bridges and lanes excluded where the State cadastre shows they are not the frontage, and the road reserve stated boundary to boundary, never as the sealed road. Gold Coast: mapped frontage context and Council carriageway width where published. Gold Coast: Council parking-sign data and nearest registered parking area where available. Brisbane: kerb and parking context, including parking signs, meters, permit areas and clearways where available.
+Not a valuation, price estimate, sales history or listing search. Not a substitute for a building inspection, conveyancing searches or legal advice. Anything that cannot be confirmed is marked Not verified. Other councils (Logan, Moreton Bay, Ipswich, Redland and the rest of Australia) are not covered.
 
-• The building and its neighbours — Gold Coast, where supported: building footprint, site coverage, open-lot area and the gap to the nearest separate building. Brisbane, where verified: parent-building height, high-rise status and building-level surroundings by side (N/E/S/W).
-
-• Getting around — Brisbane: routed journeys to the CBD and four universities by walking, bus, train and ferry, including multimodal journeys with legs and transfers (scheduled timetable, never live), a free-flow driving time and any identified toll facilities on the driving route (never a toll price), plus the nearest hospitals and stops. Gold Coast: nearest public-transport stops.
-
-Results include source, status, date and limitations where available. If the property identity cannot be verified safely, no paid report is offered.
-
-Free: check_address — registered identity, coverage and a short source-backed summary.
-Full Agent JSON (get_full_report): A$1.39 incl. GST via x402, or A$4.95 incl. GST by card after the human agrees.
-
-Supporting due-diligence evidence also included where available: flood, bushfire and other mapped hazards, planning, school catchments, traffic, police-division context and infrastructure.
-
-Building-level and site-level facts only — not a view from a specific apartment, and not a valuation.
+This server is `/v1/mcp`. A separate free Gold Coast connector for assistant directories exists at `/v1/connect`; it is not this listing.
 
 ## Apartment? Check the building first.
 
