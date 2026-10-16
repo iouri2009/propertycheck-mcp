@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "ai.alphaquantlabs/propertycheck",
-  "title": "AQL PropertyCheck — Physical check of one exact address",
-  "description": "Gold Coast & Brisbane: the building, the street at its door and the everyday context around it.",
-  "version": "1.15.0",
+  "title": "AQL PropertyCheck — Property Intelligence & Due Diligence Report API, Gold Coast & Brisbane City",
+  "description": "Gold Coast & Brisbane, Australia property report: flood, planning, schools. Free check; x402 A$1.39",
+  "version": "1.15.1",
   "websiteUrl": "https://agents.alphaquantlabs.ai/",
   "remotes": [
     {
