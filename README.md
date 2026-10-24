@@ -15,7 +15,7 @@ Example questions: "Is 9 Hamilton Avenue, Surfers Paradise in a flood overlay?" 
 
 Not a valuation, price estimate, sales history or listing search. Not a substitute for a building inspection, conveyancing searches or legal advice. Anything that cannot be confirmed is marked Not verified. Other councils (Logan, Moreton Bay, Ipswich, Redland and the rest of Australia) are not covered.
 
-This server is `/v1/mcp`. A separate free Gold Coast connector for assistant directories exists at `/v1/connect`; it is not this listing.
+This server is `/v1/mcp`. A separate free connector for assistant directories (ChatGPT app, Claude directory) exists at `/v1/connect`, for the same Gold Coast and Brisbane coverage; it is not this listing.
 
 ## Apartment? Check the building first.
 
