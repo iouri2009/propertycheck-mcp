@@ -1,0 +1,36 @@
+{
+  "name": "aql-propertycheck",
+  "displayName": "AQL PropertyCheck",
+  "version": "1.0.0",
+  "description": "Check a City of Gold Coast or Brisbane City (Queensland, Australia) street address before you sign a lease or make an offer: flood, bushfire and other mapped hazards, planning zone, unit in a complex, the street, schools and public transport, and in Brisbane parking rules and public-transport time to the CBD, each from official open data with its source.",
+  "author": {
+    "name": "TTM369 Pty Ltd",
+    "email": "ttm369company@gmail.com",
+    "url": "https://property.alphaquantlabs.ai"
+  },
+  "homepage": "https://agents.alphaquantlabs.ai/v1/connect",
+  "repository": "https://github.com/iouri2009/propertycheck-mcp",
+  "license": "MIT",
+  "keywords": [
+    "property",
+    "real-estate",
+    "gold-coast",
+    "brisbane",
+    "queensland",
+    "flood",
+    "bushfire",
+    "renting",
+    "buying"
+  ],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://agents.alphaquantlabs.ai/v1/connect",
+  "supportUrl": "https://property.alphaquantlabs.ai/contact",
+  "privacyPolicyUrl": "https://property.alphaquantlabs.ai/privacy",
+  "termsOfServiceUrl": "https://property.alphaquantlabs.ai/terms",
+  "mcpServers": {
+    "aql-propertycheck": {
+      "type": "http",
+      "url": "https://agents.alphaquantlabs.ai/v1/connect?via=claude"
+    }
+  }
+}
