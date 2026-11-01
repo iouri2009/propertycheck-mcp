@@ -4,7 +4,7 @@ Check a City of Gold Coast or Brisbane City (Queensland, Australia) street addre
 
 ## What is in this plugin
 
-- **One skill**, `check-address-before-you-rent-or-buy`: tells Claude when to check an address and how to report the result honestly (status and source of every finding; "not verified" never means "safe").
+- **One skill**, `check-address-before-you-rent-or-buy`: tells Claude when to check an address and how to report the result honestly (status and source of every finding; "not verified" means the data could not be confirmed, not that the hazard is absent).
 - **One remote MCP server**, `aql-propertycheck`, at `https://agents.alphaquantlabs.ai/v1/connect?via=claude` - the same server as the AQL PropertyCheck connector. Two read-only tools: `check_property(address)` and `about_propertycheck`.
 
 ## What it sends and where
@@ -20,7 +20,7 @@ Coverage is the City of Gold Coast and Brisbane City only; other addresses are r
 
 ## Links
 
-- Documentation: https://agents.alphaquantlabs.ai/v1/connect
+- Documentation: https://agents.alphaquantlabs.ai/v1/connect/claude
 - Support: https://property.alphaquantlabs.ai/contact
 - Privacy: https://property.alphaquantlabs.ai/privacy
 - Terms: https://property.alphaquantlabs.ai/terms

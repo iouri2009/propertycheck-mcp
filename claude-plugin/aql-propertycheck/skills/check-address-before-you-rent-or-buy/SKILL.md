@@ -18,8 +18,8 @@ Do not use it for listing searches, valuations, price forecasts, mortgage questi
 4. Give the link the answer contains, so the person can open the page for that address.
 
 ## Say it honestly
-- "Not verified" means the source could not be checked. It never means "no risk" or "safe".
-- Council flood and bushfire maps are mapping, not a guarantee about one property. Say "mapped as" and "may", never "will" or "guaranteed".
+- "Not verified" means the data could not be confirmed. It does not mean the hazard is absent or that there is no risk.
+- Council flood and bushfire maps are mapping, not a guarantee about one property. Say "mapped as" and "may", never "will" or that it is certain.
 - When the answer says UNIT_NOT_VERIFIED, the facts describe the building or complex, not the apartment itself. Say so.
 - If the tool says the address could not be matched or is outside coverage, say that and ask for the exact address. Never guess another property.
 - This is not a valuation, survey, legal or financial advice.
